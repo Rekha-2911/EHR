@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Environment — contains DB credentials, JWT secret, Supabase keys
+.env
+.env.*
+!.env.example
+
+# Encrypted uploaded files — never commit patient data
+uploads/
+uploads/*.enc
+uploads/*.pdf
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
